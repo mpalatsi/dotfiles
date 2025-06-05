@@ -1,0 +1,11 @@
+configuration {
+  display-drun: "Applications";
+  display-window: "Windows";
+  drun-display-format: "{icon} {name}";
+  font: "Noto Sans 12";
+  modi: "drun,run,window,filebrowser";
+  show-icons: true;
+  icon-theme: "Papirus";
+}
+
+@theme "/home/mpalatsi/.config/rofi/theme.rasi"

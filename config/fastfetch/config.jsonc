@@ -1,0 +1,140 @@
+{
+    // Ultra-riced fastfetch config with maximum visual appeal
+    "logo": {
+        "source": "arch",
+        "type": "builtin",
+        "color": {
+            "1": "cyan",
+            "2": "blue"
+        }
+    },
+    "display": {
+        "separator": " ▸ ",
+        "color": {
+            "keys": "white",
+            "separator": "bright_cyan"
+        }
+    },
+    "modules": [
+        {
+            "type": "custom",
+            "format": "╭─────────────┬──────────────────────────────────────────────╮"
+        },
+        {
+            "type": "title",
+            "key": "│ 👤 User     ",
+            "keyColor": "bright_yellow",
+            "format": "{user-name}                                    │"
+        },
+        {
+            "type": "host",
+            "key": "│ 💻 Host     ",
+            "keyColor": "bright_red"
+        },
+        {
+            "type": "custom",
+            "format": "├─────────────┼──────────────────────────────────────────────┤"
+        },
+        {
+            "type": "os",
+            "key": "│ 🐧 OS       ",
+            "keyColor": "bright_green"
+        },
+        {
+            "type": "kernel", 
+            "key": "│ ⚡ Kernel   ",
+            "keyColor": "bright_blue"
+        },
+        {
+            "type": "uptime",
+            "key": "│ ⏰ Uptime   ",
+            "keyColor": "bright_magenta"
+        },
+        {
+            "type": "packages",
+            "key": "│ 📦 Packages ",
+            "keyColor": "bright_cyan"
+        },
+        {
+            "type": "shell",
+            "key": "│ 🐚 Shell    ",
+            "keyColor": "bright_white"
+        },
+        {
+            "type": "terminal",
+            "key": "│ 🖥️  Terminal ",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "de",
+            "key": "│ 🎨 DE       ",
+            "keyColor": "red"
+        },
+        {
+            "type": "wm",
+            "key": "│ 🪟 WM       ",
+            "keyColor": "green"
+        },
+        {
+            "type": "theme",
+            "key": "│ 🎭 Theme    ",
+            "keyColor": "blue"
+        },
+        {
+            "type": "icons",
+            "key": "│ 🔮 Icons    ",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "font",
+            "key": "│ 🔤 Font     ",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "cpu",
+            "key": "│ ⚙️  CPU      ",
+            "keyColor": "bright_red"
+        },
+        {
+            "type": "gpu",
+            "key": "│ 🎮 GPU      ",
+            "keyColor": "bright_green"
+        },
+        {
+            "type": "memory",
+            "key": "│ 🧠 Memory   ",
+            "keyColor": "bright_yellow"
+        },
+        {
+            "type": "disk",
+            "key": "│ 💾 Storage  ",
+            "keyColor": "bright_blue"
+        },
+        {
+            "type": "localip",
+            "key": "│ 🌐 Local IP ",
+            "keyColor": "bright_magenta"
+        },
+        {
+            "type": "custom",
+            "format": "└─────────────┴──────────────────────────────────────────────┘"
+        },
+        {
+            "type": "custom",
+            "format": ""
+        },
+        {
+            "type": "custom",
+            "format": "                          ╭─── Color Palette ───╮"
+        },
+        {
+            "type": "colors",
+            "symbol": "circle",
+            "paddingLeft": 28
+        },
+        {
+            "type": "custom",
+            "format": "                          ╰─────────────────────╯"
+        }
+    ]
+} 

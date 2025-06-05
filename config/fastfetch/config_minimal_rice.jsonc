@@ -1,0 +1,80 @@
+{
+    // Minimal rice - clean and elegant
+    "logo": {
+        "source": "arch",
+        "type": "builtin",
+        "color": {
+            "1": "cyan",
+            "2": "blue"
+        }
+    },
+    "display": {
+        "separator": " ◆ ",
+        "color": {
+            "keys": "bright_white",
+            "separator": "cyan"
+        }
+    },
+    "modules": [
+        {
+            "type": "custom",
+            "format": "▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔"
+        },
+        {
+            "type": "title",
+            "keyColor": "bright_cyan"
+        },
+        {
+            "type": "custom",
+            "format": "▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔"
+        },
+        {
+            "type": "os",
+            "key": "OS",
+            "keyColor": "green"
+        },
+        {
+            "type": "kernel", 
+            "key": "Kernel",
+            "keyColor": "blue"
+        },
+        {
+            "type": "uptime",
+            "key": "Uptime",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "packages",
+            "key": "Packages",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "shell",
+            "key": "Shell",
+            "keyColor": "red"
+        },
+        {
+            "type": "wm",
+            "key": "WM",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "cpu",
+            "key": "CPU",
+            "keyColor": "bright_red"
+        },
+        {
+            "type": "memory",
+            "key": "Memory",
+            "keyColor": "bright_green"
+        },
+        {
+            "type": "custom",
+            "format": "▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁"
+        },
+        {
+            "type": "colors",
+            "symbol": "square"
+        }
+    ]
+} 

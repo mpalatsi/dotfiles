@@ -1,0 +1,15 @@
+[general]
+import = ["colors.toml"]
+
+[window.padding]
+x = 10
+y = 10
+
+[window]
+opacity = 0.95
+
+[font]
+size = 11.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"

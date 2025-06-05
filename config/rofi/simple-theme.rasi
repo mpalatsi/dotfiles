@@ -1,0 +1,143 @@
+* {
+    /* Material palette */
+    bg: #1a1b26;
+    bg-alt: #2a2b36;
+    fg: #ffffff;
+    fg-alt: #bbbbbb;
+    accent: #5B631E;
+    accent-alt: #738424;
+    border-color: #414868;
+    
+    /* Layout */
+    border: 0;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+    
+    /* Size */
+    icon-size: 24;
+    
+    /* Style */
+    font: "Noto Sans 12";
+    border-radius: 12;
+    
+    /* Animations */
+    transition: 200;
+}
+
+window {
+    width: 650;
+    background-color: @bg;
+    border-radius: 16;
+    border: 2;
+    border-color: @border-color;
+}
+
+mainbox {
+    children: [inputbar, listview];
+    background-color: transparent;
+    padding: 12;
+    spacing: 12;
+}
+
+inputbar {
+    children: [prompt, entry];
+    background-color: @bg-alt;
+    border-radius: 12;
+    padding: 8;
+    margin: 0 0 8 0;
+    spacing: 8;
+    border: 1;
+    border-color: @border-color;
+}
+
+prompt {
+    background-color: @accent;
+    padding: 8 14;
+    text-color: @bg;
+    border-radius: 8;
+    font: "Noto Sans Bold 12";
+}
+
+entry {
+    padding: 8;
+    text-color: @fg;
+    background-color: transparent;
+    placeholder: "Search...";
+    placeholder-color: @fg-alt;
+}
+
+message {
+    padding: 8;
+    border-radius: 8;
+    background-color: @bg-alt;
+    border: 1;
+    border-color: @border-color;
+}
+
+listview {
+    background-color: transparent;
+    padding: 8;
+    spacing: 4;
+    columns: 1;
+    lines: 10;
+    scrollbar: true;
+    border-radius: 12;
+    dynamic: true;
+}
+
+element {
+    padding: 8 12;
+    spacing: 16;
+    background-color: transparent;
+    border-radius: 8;
+}
+
+element normal.normal,
+element alternate.normal {
+    background-color: transparent;
+}
+
+element selected.normal {
+    background-color: @bg-alt;
+    border: 1;
+    border-color: @accent;
+}
+
+element-icon {
+    size: @icon-size;
+    padding: 2;
+    background-color: transparent;
+    border-radius: 4;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: @fg;
+    padding: 0 0 0 4;
+}
+
+element-text selected {
+    text-color: @accent;
+    font: "Noto Sans Bold 12";
+}
+
+scrollbar {
+    width: 4;
+    handle-width: 4;
+    handle-color: @accent;
+    border-radius: 4;
+    background-color: #414868;
+}
+
+button {
+    padding: 8;
+    background-color: @bg-alt;
+    text-color: @fg-alt;
+    border-radius: 8;
+}
+
+button selected {
+    background-color: @accent;
+    text-color: @bg;
+} 

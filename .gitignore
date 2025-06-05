@@ -1,0 +1,109 @@
+# Dotfiles .gitignore - Exclude unnecessary files for sharing
+
+# Editor and IDE files
+Cursor/
+VSCodium/
+Code*/
+**/History/
+**/*.tmp
+**/*.temp
+**/*.bak
+**/*.swp
+**/*.swo
+*~
+
+# Cache directories
+**/.cache/
+**/cache/
+**/.thumbnails/
+**/thumbnails/
+
+# Browser data (contains personal information)
+google-chrome/
+chromium/
+BraveSoftware/
+firefox/
+Microsoft/
+vivaldi/
+
+# Personal/Sensitive applications
+1Password/
+discord/
+Slack/
+Teams/
+spotify/
+Signal/
+Telegram/
+WhatsApp/
+
+# Game configurations (personal data)
+lutris/
+Steam/
+heroic/
+bottles/
+
+# System-specific files
+dconf/
+systemd/
+pulse/
+pipewire/
+xorg/
+
+# Media applications (often contain personal data)
+vlc/
+mpv/playlists/
+strawberry/music.db
+
+# Log files
+**/*.log
+**/logs/
+
+# Personal configuration files that shouldn't be shared
+**/*personal*
+**/*private*
+**/*secret*
+
+# Lock files and temporary runtime data
+**/*.lock
+**/runtime/
+**/tmp/
+
+# Package manager cache
+paru/
+yay/
+
+# Font cache
+fontconfig/
+
+# Trash
+Trash/
+trash/
+
+# Specific files to exclude
+user-dirs.dirs
+user-dirs.locale
+mimeapps.list
+
+# Keep only theming-related configurations
+# The following are INCLUDED (commented out to clarify what's kept):
+# hypr/
+# waybar/
+# rofi/
+# departure/
+# matugen/
+# wal/
+# mako/
+# alacritty/
+# gtk-3.0/
+# gtk-4.0/
+# qt5ct/
+# Kvantum/
+# fish/
+# nvim/
+# micro/
+# btop/
+# cava/
+# fastfetch/
+# flameshot/
+# swaylock/
+# xsettingsd/

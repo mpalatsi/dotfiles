@@ -1,0 +1,103 @@
+{
+    // Neon cyberpunk rice - bright and futuristic
+    "logo": {
+        "source": "arch",
+        "type": "builtin",
+        "color": {
+            "1": "bright_magenta",
+            "2": "bright_cyan"
+        }
+    },
+    "display": {
+        "separator": " ▶ ",
+        "color": {
+            "keys": "bright_cyan",
+            "separator": "bright_magenta"
+        }
+    },
+    "modules": [
+        {
+            "type": "custom",
+            "format": "╔═══════════════════════════════════════════════════════════╗"
+        },
+        {
+            "type": "custom",
+            "format": "║                    ✦ SYSTEM STATUS ✦                    ║"
+        },
+        {
+            "type": "custom",
+            "format": "╠═══════════════════════════════════════════════════════════╣"
+        },
+        {
+            "type": "title",
+            "key": "║ ⚡ USER",
+            "keyColor": "bright_yellow"
+        },
+        {
+            "type": "host",
+            "key": "║ 🔗 HOST",
+            "keyColor": "bright_red"
+        },
+        {
+            "type": "custom",
+            "format": "╠═══════════════════════════════════════════════════════════╣"
+        },
+        {
+            "type": "os",
+            "key": "║ 💻 SYSTEM",
+            "keyColor": "bright_green"
+        },
+        {
+            "type": "kernel", 
+            "key": "║ ⚙️  KERNEL",
+            "keyColor": "bright_blue"
+        },
+        {
+            "type": "uptime",
+            "key": "║ ⏱️  RUNTIME",
+            "keyColor": "bright_magenta"
+        },
+        {
+            "type": "shell",
+            "key": "║ 🖥️  SHELL",
+            "keyColor": "bright_cyan"
+        },
+        {
+            "type": "wm",
+            "key": "║ 🪟 MANAGER",
+            "keyColor": "bright_white"
+        },
+        {
+            "type": "cpu",
+            "key": "║ 🔥 PROCESSOR",
+            "keyColor": "bright_red"
+        },
+        {
+            "type": "gpu",
+            "key": "║ 🎮 GRAPHICS",
+            "keyColor": "bright_green"
+        },
+        {
+            "type": "memory",
+            "key": "║ 🧠 MEMORY",
+            "keyColor": "bright_yellow"
+        },
+        {
+            "type": "packages",
+            "key": "║ 📦 PACKAGES",
+            "keyColor": "bright_blue"
+        },
+        {
+            "type": "custom",
+            "format": "╚═══════════════════════════════════════════════════════════╝"
+        },
+        {
+            "type": "custom",
+            "format": ""
+        },
+        {
+            "type": "colors",
+            "symbol": "diamond"
+        }
+    ]
+} 

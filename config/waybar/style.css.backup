@@ -1,0 +1,175 @@
+/* Import colors from pywal */
+@define-color background #282c34;
+@define-color foreground #abb2bf;
+@define-color color0 #282c34;
+@define-color color1 #e06c75;
+@define-color color2 #98c379;
+@define-color color3 #e5c07b;
+@define-color color4 #61afef;
+@define-color color5 #c678dd;
+@define-color color6 #56b6c2;
+@define-color color7 #abb2bf;
+@define-color color8 #545862;
+@define-color color9 #e06c75;
+@define-color color10 #98c379;
+@define-color color11 #e5c07b;
+@define-color color12 #61afef;
+@define-color color13 #c678dd;
+@define-color color14 #56b6c2;
+@define-color color15 #c8ccd4;
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free", sans-serif;
+    font-size: 13px;
+    min-height: 0;
+    transition-duration: 0.3s;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+#waybar.empty #window {
+    background-color: transparent;
+}
+
+.modules-left, .modules-center, .modules-right {
+    background-color: alpha(@background, 0.85);
+    border-radius: 12px;
+    margin: 2px 0;
+    padding: 0 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.modules-left {
+    margin-left: 0;
+}
+
+.modules-right {
+    margin-right: 0;
+}
+
+/* Individual modules styling */
+#workspaces button {
+    color: @foreground;
+    background: transparent;
+    padding: 0 4px;
+    border-radius: 8px;
+    margin: 4px 2px;
+}
+
+#workspaces button.active {
+    color: @color2;
+    background: alpha(@color2, 0.2);
+    font-weight: bold;
+}
+
+#workspaces button:hover {
+    color: @color3;
+    background: alpha(@color3, 0.1);
+}
+
+#cpu, #memory, #disk, #temperature, #wireplumber, 
+#custom-weather, #clock, #tray, #custom-power, #custom-launcher {
+    padding: 0 12px;
+    color: @foreground;
+    border-radius: 8px;
+    margin: 4px 0;
+}
+
+#custom-launcher {
+    color: @color4;
+    font-size: 16px;
+    margin-left: 4px;
+}
+
+#window {
+    color: @foreground;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#custom-power {
+    color: @color1;
+    font-size: 16px;
+    margin-right: 4px;
+}
+
+#wireplumber {
+    color: @color5;
+}
+
+#clock {
+    color: @color6;
+    font-weight: bold;
+}
+
+#cpu {
+    color: @color2;
+}
+
+#memory {
+    color: @color3;
+}
+
+#disk {
+    color: @color4;
+}
+
+#temperature {
+    color: @foreground;
+}
+
+#temperature.critical {
+    color: @color1;
+    animation: blink 1s infinite;
+}
+
+#tray {
+    padding-right: 12px;
+}
+
+/* Animation for critical notifications */
+@keyframes blink {
+    to {
+        background-color: alpha(@color1, 0.5);
+        color: @background;
+    }
+}
+
+/* Smooth hover effects */
+#cpu:hover, #memory:hover, #disk:hover, #temperature:hover, 
+#wireplumber:hover, #custom-weather:hover, #tray:hover {
+    background: alpha(@foreground, 0.1);
+}
+
+/* Make modules visually distinct */
+#cpu, #memory, #disk, #temperature, #wireplumber, #custom-weather {
+    border-bottom: 2px solid transparent;
+}
+
+#cpu:hover {
+    border-bottom: 2px solid @color2;
+}
+
+#memory:hover {
+    border-bottom: 2px solid @color3;
+}
+
+#disk:hover {
+    border-bottom: 2px solid @color4;
+}
+
+#temperature:hover {
+    border-bottom: 2px solid @color5;
+}
+
+#wireplumber:hover {
+    border-bottom: 2px solid @color6;
+}
+
+#custom-weather:hover {
+    border-bottom: 2px solid @color7;
+}

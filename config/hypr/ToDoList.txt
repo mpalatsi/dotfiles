@@ -1,0 +1,48 @@
+
+1. Enhanced Window Decorations
+Enable shadows with subtle settings for depth
+Increase rounding to 8-12px for a more modern look
+Add drop shadows with custom colors matching your theme
+Implement window dimming for inactive windows
+
+2. Advanced Blur Effects
+Layered blur for different elements (waybar, notifications, etc.)
+Vibrancy effects to make blur more colorful
+Noise texture on blur for organic feel
+Brightness adjustments for better contrast
+
+3. Animation Improvements
+More animation types (fade, slide, scale combinations)
+Workspace switching effects with custom bezier curves
+Window spawn animations with bounce or elastic effects
+Border color transitions when switching focus
+
+4. Dynamic Visual Elements
+Gradient borders that change based on time of day
+Pulsing effects for active windows
+Color temperature shifts throughout the day
+Seasonal theme variations
+
+5. Additional Visual Components
+Hyprshade for blue light filtering and color temperature
+Swww for animated wallpapers or smooth transitions
+Eww widgets for desktop widgets with transparency
+Rofi/Wofi with matching theme styling
+
+6. Lock Screen Enhancements
+Custom blur effects with different parameters
+Animated elements on the lock screen
+Weather/system info widgets
+Music player controls with album art
+
+7. Notification System
+Themed Mako notifications with blur and rounded corners
+Progress bars with your color scheme
+Custom notification sounds and vibrations
+Grouped notifications with visual hierarchy
+
+8. Workspace Visual Indicators
+Workspace previews with thumbnails
+Visual workspace switching with smooth transitions
+Custom workspace names with icons
+Workspace-specific wallpapers

@@ -1,0 +1,70 @@
+{
+  "theme": {
+    "source": "manual",
+    "manual_colors": {
+      "background": "rgba(0, 0, 0, 0.4)",
+      "primary": "#ffffff",
+      "secondary": "#e2e8f0",
+      "text": "#1f2937",
+      "danger": "#dc2626"
+    },
+    "file_path": null,
+    "command": null,
+    "watch_file": false
+  },
+  "layout": {
+    "layout_type": "horizontal",
+    "button_size": 80,
+    "button_spacing": 20,
+    "margin": 40,
+    "columns": null
+  },
+  "effects": {
+    "blur": true,
+    "animations": true,
+    "hover_effects": true,
+    "transition_duration": 150
+  },
+  "actions": [
+    {
+      "name": "Lock",
+      "command": "hyprlock",
+      "icon": "/home/mpalatsi/Pictures/departure_assets/lock.png",
+      "keybind": "l",
+      "confirm": false,
+      "danger": false
+    },
+    {
+      "name": "Sleep",
+      "command": "systemctl suspend",
+      "icon": "/home/mpalatsi/Pictures/departure_assets/sleep.png",
+      "keybind": "s",
+      "confirm": false,
+      "danger": false
+    },
+    {
+      "name": "Logout",
+      "command": "hyprctl dispatch exit",
+      "icon": "/home/mpalatsi/Pictures/departure_assets/logout.png",
+      "keybind": "e",
+      "confirm": true,
+      "danger": false
+    },
+    {
+      "name": "Restart",
+      "command": "systemctl reboot",
+      "icon": "/home/mpalatsi/Pictures/departure_assets/restart.png",
+      "keybind": "r",
+      "confirm": true,
+      "danger": true
+    },
+    {
+      "name": "Shutdown",
+      "command": "systemctl poweroff",
+      "icon": "/home/mpalatsi/Pictures/departure_assets/shutdown.png",
+      "keybind": "p",
+      "confirm": true,
+      "danger": true
+    }
+  ]
+} 

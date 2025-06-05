@@ -1,0 +1,68 @@
+{
+    // ARCH-style fastfetch config with properly sized table for all content
+    "logo": {
+        "source": "arch",
+        "type": "builtin"
+    },
+    "display": {
+        "separator": " │ ",
+        "color": {
+            "keys": "white",
+            "separator": "bright_black"
+        }
+    },
+    "modules": [
+        {
+            "type": "custom",
+            "format": "┌─────────┬──────────────────────────────────────────────┐"
+        },
+        {
+            "type": "title",
+            "key": "│  User   ",
+            "keyColor": "yellow",
+            "format": "{user-name}                                    │"
+        },
+        {
+            "type": "custom",
+            "format": "├─────────┼──────────────────────────────────────────────┤"
+        },
+        {
+            "type": "os",
+            "key": "│   OS    ",
+            "keyColor": "green"
+        },
+        {
+            "type": "kernel", 
+            "key": "│ Kernel  ",
+            "keyColor": "blue"
+        },
+        {
+            "type": "uptime",
+            "key": "│ Uptime  ",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "shell",
+            "key": "│ Shell   ",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "packages",
+            "key": "│  Pkgs   ",
+            "keyColor": "white"
+        },
+        {
+            "type": "memory",
+            "key": "│ Memory  ",
+            "keyColor": "red"
+        },
+        {
+            "type": "custom",
+            "format": "└─────────┴──────────────────────────────────────────────┘"
+        },
+        {
+            "type": "colors",
+            "symbol": "circle"
+        }
+    ]
+} 

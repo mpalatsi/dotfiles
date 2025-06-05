@@ -1,0 +1,74 @@
+{
+    // Gradient rice - smooth color transitions
+    "logo": {
+        "source": "arch",
+        "type": "builtin",
+        "color": {
+            "1": "red",
+            "2": "yellow"
+        }
+    },
+    "display": {
+        "separator": " → ",
+        "color": {
+            "keys": "white",
+            "separator": "bright_black"
+        }
+    },
+    "modules": [
+        {
+            "type": "title",
+            "key": "╭─ User",
+            "keyColor": "red"
+        },
+        {
+            "type": "host",
+            "key": "├─ Host",
+            "keyColor": "bright_red"
+        },
+        {
+            "type": "os",
+            "key": "├─ OS",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "kernel", 
+            "key": "├─ Kernel",
+            "keyColor": "bright_yellow"
+        },
+        {
+            "type": "uptime",
+            "key": "├─ Uptime",
+            "keyColor": "green"
+        },
+        {
+            "type": "shell",
+            "key": "├─ Shell",
+            "keyColor": "bright_green"
+        },
+        {
+            "type": "wm",
+            "key": "├─ WM",
+            "keyColor": "cyan"
+        },
+        {
+            "type": "cpu",
+            "key": "├─ CPU",
+            "keyColor": "bright_cyan"
+        },
+        {
+            "type": "memory",
+            "key": "├─ Memory",
+            "keyColor": "blue"
+        },
+        {
+            "type": "packages",
+            "key": "╰─ Packages",
+            "keyColor": "bright_blue"
+        },
+        {
+            "type": "colors",
+            "symbol": "block"
+        }
+    ]
+} 

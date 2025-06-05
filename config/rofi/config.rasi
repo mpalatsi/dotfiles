@@ -1,0 +1,30 @@
+configuration {
+  display-drun: "Applications";
+  display-window: "Windows";
+  display-run: "Run";
+  display-filebrowser: "Files";
+  drun-display-format: "{icon} {name}";
+  font: "SF Pro Display 13";
+  modi: "drun,run,window,filebrowser";
+  show-icons: true;
+  icon-theme: "Papirus";
+  
+  /* Performance and behavior */
+  disable-history: false;
+  sort: true;
+  sorting-method: "fzf";
+  case-sensitive: false;
+  cycle: true;
+  
+  /* Window positioning */
+  location: 0;
+  anchor: 0;
+  
+  /* Safe keybindings - avoiding conflicts */
+  kb-cancel: "Escape";
+  kb-accept-entry: "Return,KP_Enter";
+  kb-row-up: "Up";
+  kb-row-down: "Down";
+}
+
+@theme "/home/mpalatsi/.config/rofi/theme.rasi"
