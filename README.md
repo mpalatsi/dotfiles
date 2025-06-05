@@ -2,7 +2,7 @@
 
 A comprehensive Wayland desktop configuration featuring **Material You** theming with **matugen**, dynamic wallpaper-based color schemes, and modern UI components.
 
-![Desktop Preview](assets/screenshots/desktop.png)
+![Desktop Preview](assets/screenshots/2025-06-05-115629_hyprshot.png)
 
 ## ✨ Features
 
@@ -178,13 +178,35 @@ FALLBACK_ACCENT="#8f6eff"
 
 ## 📸 Screenshots
 
-| Component | Preview |
-|-----------|---------|
-| Desktop Overview | ![Overview](assets/screenshots/overview.png) |
-| Rofi Launcher | ![Rofi](assets/screenshots/rofi.png) |
-| Waybar Status | ![Waybar](assets/screenshots/waybar.png) |
-| Departure Logout | ![Departure](assets/screenshots/departure.png) |
-| Notifications | ![Mako](assets/screenshots/notifications.png) |
+### 🖥️ Desktop Overview
+Beautiful cyberpunk-themed desktop with Material You colors extracted from wallpaper:
+
+![Clean Desktop](assets/screenshots/2025-06-05-115629_hyprshot.png)
+
+### 🚀 Application Launcher (Rofi)
+Sharp, modern launcher with translucent background and Material You accent colors:
+
+![Rofi Launcher](assets/screenshots/2025-06-05-115646_hyprshot.png)
+
+### 📊 Complete Desktop Setup
+Multi-monitor setup showcasing the full Material You theming across different applications:
+
+![Full Desktop](assets/screenshots/2025-06-05-120305_hyprshot.png)
+
+### 🎯 Waybar Status Bar
+Clean status bar with Material You colors and transparent modules:
+
+![Waybar](assets/screenshots/2025-06-05-115717_hyprshot.png)
+
+### 🔄 Departure Logout Menu
+Modern logout interface with blur effects and Material You colors:
+
+![Departure Menu](assets/screenshots/2025-06-04-231237_hyprshot.png)
+
+### 🔔 Material You Notifications
+System notifications with dynamic theming and transparency:
+
+![Notification](assets/screenshots/2025-06-05-115746_hyprshot.png)
 
 ## 🔧 Troubleshooting
 
