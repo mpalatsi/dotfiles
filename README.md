@@ -1,5 +1,7 @@
 # Material You Dotfiles 🎨
 
+![Material You Demo](assets/screenshots/Mikes_DotFiles.gif)
+
 A comprehensive Wayland desktop configuration featuring **Material You** theming with **matugen**, dynamic wallpaper-based color schemes, and modern UI components.
 
 ![Desktop Preview](assets/screenshots/2025-06-05-120305_hyprshot.png)
